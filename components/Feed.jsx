@@ -48,6 +48,7 @@ const Feed = () => {
             value={searchText}
             onChange={handleSearchChange}
             required
+            id="searchInput" 
             className="search_input peer"
           />
 
